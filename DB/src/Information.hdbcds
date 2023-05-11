@@ -1,4 +1,12 @@
 namespace GIT_TEST_I543633.DB;
 
 context Information {
-};  
+};
+
+/*@@layout{"layoutInfo":{"x":-267,"y":-77.5}}*/
+entity CUSTOMER_DETAILS {
+    key ID        : Integer;
+        FIRSTNAME : String(20);
+        LASTNAME  : String(20);
+        AGE 	  : Integer;
+};
