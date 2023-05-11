@@ -9,4 +9,5 @@ entity CUSTOMER_DETAILS {
         FIRSTNAME : String(20);
         LASTNAME  : String(20);
         AGE 	  : Integer;
+        Country   : String(40);
 };
