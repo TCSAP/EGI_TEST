@@ -1,0 +1,4 @@
+namespace GIT_TEST_I543633.DB;
+
+context Information {
+};  

@@ -1,3 +1,16 @@
 ID: GIT_TEST_I543633
 _schema-version: '2.1'
 version: 0.0.1
+
+modules:
+ - name: DB
+   type: hdb
+   path: DB
+   requires:
+    - name: hdi_DB
+
+resources:
+ - name: hdi_DB
+   properties:
+      hdi-container-name: ${service-name}
+   type: com.sap.xs.hdi-container
