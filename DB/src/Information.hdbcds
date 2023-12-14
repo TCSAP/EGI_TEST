@@ -11,4 +11,5 @@ entity CUSTOMER_DETAILS {
         AGE 	  : Integer;
         Country   : String(50);
         Region	  : String(40);
+        DOB		  : String(20);
 };
