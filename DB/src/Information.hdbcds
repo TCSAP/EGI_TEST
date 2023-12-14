@@ -10,5 +10,5 @@ entity CUSTOMER_DETAILS {
         LASTNAME  : String(20);
         AGE 	  : Integer;
         Country   : String(50);
-        Region	  : String(50);
+        Region	  : String(40);
 };
